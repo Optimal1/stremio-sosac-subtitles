@@ -30,6 +30,11 @@ https://YOUR-RAILWAY-DOMAIN/manifest.json
 
 Replace `YOUR-RAILWAY-DOMAIN` with your deployed Railway URL.
 
+You can use a URL from the [RailWay](https://railway.com/) website. For example, the URL I use (which you can also use) is:
+```
+https://stremio-sosac-subtitles-production.up.railway.app/manifest.json
+```
+
 ## How it works
 
 ```
