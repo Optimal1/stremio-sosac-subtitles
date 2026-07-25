@@ -52,6 +52,8 @@ const app = express();
 
 app.use("/", getRouter(builder.getInterface()));
 
-app.listen(7000, () => {
-    console.log("Optimal Sosac Subtitles running on http://127.0.0.1:7000");
+const PORT = Number(process.env.PORT) || 7000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
